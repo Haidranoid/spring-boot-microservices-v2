@@ -26,3 +26,9 @@ application:
   config:
     #students-url: http://localhost:8090/api/v1/students
     students-url: http://localhost:8222/api/v1/students # with gateway
+
+#zipkin
+management:
+  tracing:
+    sampling:
+      probability: 1.0

@@ -22,4 +22,8 @@ eureka:
 server:
   port: 8090
 
-
+#zipkin
+management:
+  tracing:
+    sampling:
+      probability: 1.0
